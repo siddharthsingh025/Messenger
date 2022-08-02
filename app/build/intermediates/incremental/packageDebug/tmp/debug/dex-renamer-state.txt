@@ -1,0 +1,4 @@
+#Sat Jul 30 16:12:44 IST 2022
+base.0=/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
