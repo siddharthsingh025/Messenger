@@ -43,7 +43,8 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:30.3.1') // //use for automatic updation of version of firebase
     implementation 'com.google.firebase:firebase-database'
 
-    implementation 'com.google.android.gms:play-services-auth:20.2.0' // google login
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'// google login
 
 
     testImplementation 'junit:junit:4.13.2'

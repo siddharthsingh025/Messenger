@@ -20,8 +20,16 @@
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/layout_fragment_chat.xml.flat",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/layout_fragment_status.xml.flat",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/fragment_status.xml"
     },
     {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -126,6 +134,10 @@
     {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/layout_fragment_calls.xml.flat",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/fragment_calls.xml"
     },
     {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_facebook.png.flat",

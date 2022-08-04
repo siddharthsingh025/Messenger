@@ -56,6 +56,7 @@ id logout
 id progressBar
 id rlLoading
 id settings
+id tabLayout
 id txtAlreadyHaveAccount
 id txtClickSignUp
 id txtEmail
@@ -63,9 +64,13 @@ id txtLogInUpPhone
 id txtPassword
 id txtSignUpPhone
 id txtUsername
+id viewPager
 layout activity_log_in
 layout activity_main
 layout activity_sign_up
+layout fragment_calls
+layout fragment_chat
+layout fragment_status
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -76,6 +81,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string project_id
 string your_web_client_id
 style Theme.MassengerApp

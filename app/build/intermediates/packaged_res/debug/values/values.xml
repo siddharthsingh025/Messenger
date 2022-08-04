@@ -27,8 +27,9 @@
     <string name="google_app_id" translatable="false">1:1082190212102:android:fbaf56f35aacb92737e787</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCzwhXX-gFZNphmWYLWlyf86ePxKeUCpKg</string>
     <string name="google_storage_bucket" translatable="false">massenger-app-f75a8.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="project_id" translatable="false">massenger-app-f75a8</string>
-    <string name="your_web_client_id">551393255322-bvaf1j1gcva26pnuvsb5f8mtvflfh5cl.apps.googleusercontent.com</string>
+    <string name="your_web_client_id">1082190212102-gep7pa2vlg8aop0o91sk2m987m9vgdnd.apps.googleusercontent.com</string>
     <style name="Theme.MassengerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>

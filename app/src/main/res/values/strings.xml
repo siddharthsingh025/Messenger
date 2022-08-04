@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Massenger App</string>
-    <string name="your_web_client_id" >551393255322-bvaf1j1gcva26pnuvsb5f8mtvflfh5cl.apps.googleusercontent.com</string>
+    <string name="your_web_client_id">1082190212102-gep7pa2vlg8aop0o91sk2m987m9vgdnd.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
+

@@ -1,9 +1,15 @@
 package com.siddharth.massengerapp.Activities;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContract;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +17,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.auth.api.identity.BeginSignInRequest;
 import com.google.android.gms.auth.api.identity.Identity;
 import com.google.android.gms.auth.api.identity.SignInClient;
 import com.google.android.gms.auth.api.identity.SignInCredential;
@@ -37,12 +44,9 @@ public class LogInActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private FirebaseAuth auth;
     private FirebaseDatabase database;
-    private SignInClient oneTapClient;
-    private   GoogleSignInOptions gso;
     private GoogleSignInClient mGoogleSignInClient;
+    public static final int RC_SIGN_IN =1725;
 
-
-    private static final  int RC_SIGN_IN=17;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,14 +64,15 @@ public class LogInActivity extends AppCompatActivity {
       progressDialog.setMessage("Please Wait \n checking Validity");
 
 
-        //Configure Google Sign In
-                 gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.your_web_client_id))
+
+        // Configure sign-in to request the user's ID, email address, and basic
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
+                .requestIdToken(getString(R.string.your_web_client_id))
                 .build();
 
         // Build a GoogleSignInClient with the options specified by gso.
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);   // its holding our request
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
 
         binding.btnLogIn.setOnClickListener(new View.OnClickListener() {
@@ -86,7 +91,6 @@ public class LogInActivity extends AppCompatActivity {
 
                                   if(task.isSuccessful())
                                   {
-
                                       Intent intent = new Intent(LogInActivity.this, MainActivity.class);
                                       startActivity(intent);
 
@@ -129,49 +133,86 @@ public class LogInActivity extends AppCompatActivity {
         });
 
 
-        //google sign button
         binding.btnGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               SignIn();
+
+             SignIn();
+
             }
         });
 
+
     }
 
-     void SignIn() {
 
-        //  this basically sending our request to google
-        // due to this a pop is showed and gives some result
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+    void SignIn()
+    {   Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+//        activityResultLauncher.launch(signInIntent);
         startActivityForResult(signInIntent, RC_SIGN_IN);
+
     }
+
 
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {   // when that pop give some result its work on it
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
         if (requestCode == RC_SIGN_IN) {
-            // The Task returned from this call is always completed, no need to attach
-            // a listener.
-            try {
-                GoogleSignInAccount account = GoogleSignIn.getSignedInAccountFromIntent(data).getResult(ApiException.class);
-                  googleAuthFirebase(account.getIdToken());
-
-            } catch (ApiException e) {
-
-                Log.w("TAG", "signInResult:failed code=" + e.getStatusCode());
-            }
+            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            handleSignInResult(task);
         }
     }
 
 
 
 
-    private void googleAuthFirebase(String idToken ) {    // this will call when user data is received from the google bt intent
+/*
 
+ ++++++  ALTERNATIVE ++
+
+
+    ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+
+                    if(result.getResultCode()== Activity.RESULT_OK)
+                    {
+                        Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(result.getData());
+                        handleSignInResult(task);
+                    }
+                }
+            }
+
+    );
+
+*/
+
+
+
+    private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
+        try {
+            GoogleSignInAccount account = completedTask.getResult(ApiException.class);
+
+            // Signed in successfully, show authenticated UI.
+
+          if(account!=null)
+          {
+              googleAuth(account);
+          }
+        } catch (ApiException e) {
+            // The ApiException status code indicates the detailed failure reason.
+            // Please refer to the GoogleSignInStatusCodes class reference for more information.
+            Log.w("TAG", "signInResult:failed code=" + e.getStatusCode());
+        }
+    }
+
+    private void googleAuth(GoogleSignInAccount account) {
+
+        String idToken = account.getIdToken();
         if (idToken !=  null) {
             // Got an ID token from Google. Use it to authenticate
             // with Firebase.
@@ -183,35 +224,28 @@ public class LogInActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // Sign in success, update UI with the signed-in user's information
                                 Log.d("TAG", "signInWithCredential:success");
-                                FirebaseUser Cuser = auth.getCurrentUser();  // here we have our current user details in Cuser
+                                FirebaseUser Cuser = auth.getCurrentUser();
 
-
-                                //now we make user class object  with current user details to send it our firebase database
                                 Users users = new Users();
                                 users.setUserId(Cuser.getUid());
                                 users.setUserName(Cuser.getDisplayName());
                                 users.setProfilePic(Cuser.getPhotoUrl().toString());
 
-                                // here we send the data or you can say set the data of user to firebase realtime database
-
                                 database.getReference().child("Users").child(Cuser.getUid()).setValue(users);
-
-
 
                                 Intent intent = new Intent(LogInActivity.this,MainActivity.class);
                                 startActivity(intent);
-
-                                Toast.makeText(LogInActivity.this,"SignUp with Google Successfully",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LogInActivity.this,"signInWithGoogle:success",Toast.LENGTH_SHORT).show();
 
                             } else {
                                 // If sign in fails, display a message to the user.
                                 Log.w("TAG", "signInWithCredential:failure", task.getException());
-                                Toast.makeText(LogInActivity.this,task.getException().toString(),Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
         }
-}
+    }
+
 
 }
 
@@ -219,3 +253,4 @@ public class LogInActivity extends AppCompatActivity {
 /// For SHA code
 //just type in find ( on gradle tab , click on small elephant)
 //  " gradle signingreport "   and then copy SHA1
+

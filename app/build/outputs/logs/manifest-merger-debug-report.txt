@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/siddharthsingh/.gradle/caches/transforms-3/4af425911d590c861069a4be01949aa7/transformed/viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] /Users/siddharthsingh/.gradle/caches/transforms-3/455c4e9a9b8479d027ebdd6e84f49a5e/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/siddharthsingh/.gradle/caches/transforms-3/758dc692c2ac2287cd8763300629116b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -11,6 +11,7 @@ MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/siddharthsingh/.gradle/c
 MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5cf298a6e3aa8a5b2ac21b449d8822a5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/756a3ddf4473fb58149b05a1bb0eb6b4/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/siddharthsingh/.gradle/caches/transforms-3/15fcacc117681a3265dd332c3dfeceb3/transformed/firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
@@ -27,6 +28,7 @@ MERGED from [androidx.activity:activity:1.2.4] /Users/siddharthsingh/.gradle/cac
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/siddharthsingh/.gradle/caches/transforms-3/dd15904c15344c246dc064400685b0c8/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b9390bd6f1e5802503a401b6f87039c6/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/184e7dcc15f588f1a56ec87a6529e530/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/fd8c6bed8d8774eec09a0294667cbe23/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/siddharthsingh/.gradle/caches/transforms-3/50d600e8412d728673ff1e060e30314f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/2937f4384e537066c235dbe142b48839/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/cf2c9f3f8c932b72a0ba4d45291e2c5e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -36,9 +38,13 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/siddharthsingh
 MERGED from [androidx.browser:browser:1.4.0] /Users/siddharthsingh/.gradle/caches/transforms-3/473e86dd93b09af152211ae78f53c98e/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/4611a913b143c731d2715285ff86e843/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/e4bac2d1d44fecf92607fd8a14b0be7e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/34c429a53b2c121c46fefbfa310bac4c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/f7fa052a9f1f0512c74c4a99cc2abbb1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ba7481c3ff1a4f8ad0e2c41f672283b0/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5d427b8a906e7402596b8933e1db0953/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/524830a2ce14891c3976d3908fa70fee/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/8b693ddfb5dbe4652ea32cff58043273/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/f31bf2b054bcb6e6b712e07a32e74d3f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.7.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ea18ebfeb6c3b172f1e253da8c4eee22/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/61680781cf0b5e33c1b32bbbd1f9f3dd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/siddharthsingh/.gradle/caches/transforms-3/226a4e6e5c20b7c0d8e9e9803b4d0da3/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
@@ -59,25 +65,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/siddharthsingh/.gr
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/317f20868c716b018c5eff8c1ea5fe3c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/62db4ae9e3e356fe261461a62aa1449f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b8cc1992ac5061931f3798174aa7f68a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:5:5-28:19
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:7:5-30:19
 MERGED from [com.google.android.material:material:1.6.1] /Users/siddharthsingh/.gradle/caches/transforms-3/455c4e9a9b8479d027ebdd6e84f49a5e/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /Users/siddharthsingh/.gradle/caches/transforms-3/455c4e9a9b8479d027ebdd6e84f49a5e/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/siddharthsingh/.gradle/caches/transforms-3/758dc692c2ac2287cd8763300629116b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -115,45 +129,45 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/siddharthsingh/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ea18ebfeb6c3b172f1e253da8c4eee22/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:11:9-50
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:13:9-50
 activity#com.siddharth.massengerapp.Activities.SinghUpActivity
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:12:9-15:20
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:14:9-17:20
 	android:exported
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:14:13-37
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:13:13-55
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:15:13-55
 activity#com.siddharth.massengerapp.Activities.LogInActivity
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:18:9-26:20
 	android:exported
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:17:13-53
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:19:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.siddharth.massengerapp.Activities.MainActivity
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:25:9-27:39
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:27:9-29:39
 	android:exported
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:27:13-37
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:26:13-52
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:28:13-52
 uses-sdk
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
@@ -172,6 +186,8 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5cf298a6e3aa8a5b2ac21b449d8822a5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5cf298a6e3aa8a5b2ac21b449d8822a5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/756a3ddf4473fb58149b05a1bb0eb6b4/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
@@ -204,6 +220,8 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/siddharthsingh/.g
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b9390bd6f1e5802503a401b6f87039c6/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/184e7dcc15f588f1a56ec87a6529e530/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/184e7dcc15f588f1a56ec87a6529e530/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/fd8c6bed8d8774eec09a0294667cbe23/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/fd8c6bed8d8774eec09a0294667cbe23/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/siddharthsingh/.gradle/caches/transforms-3/50d600e8412d728673ff1e060e30314f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/siddharthsingh/.gradle/caches/transforms-3/50d600e8412d728673ff1e060e30314f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/2937f4384e537066c235dbe142b48839/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -222,12 +240,20 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/siddharthsi
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/4611a913b143c731d2715285ff86e843/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/e4bac2d1d44fecf92607fd8a14b0be7e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/e4bac2d1d44fecf92607fd8a14b0be7e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/34c429a53b2c121c46fefbfa310bac4c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/34c429a53b2c121c46fefbfa310bac4c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/f7fa052a9f1f0512c74c4a99cc2abbb1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/f7fa052a9f1f0512c74c4a99cc2abbb1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ba7481c3ff1a4f8ad0e2c41f672283b0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ba7481c3ff1a4f8ad0e2c41f672283b0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5d427b8a906e7402596b8933e1db0953/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5d427b8a906e7402596b8933e1db0953/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/524830a2ce14891c3976d3908fa70fee/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/524830a2ce14891c3976d3908fa70fee/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/8b693ddfb5dbe4652ea32cff58043273/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/8b693ddfb5dbe4652ea32cff58043273/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/f31bf2b054bcb6e6b712e07a32e74d3f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/f31bf2b054bcb6e6b712e07a32e74d3f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.7.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ea18ebfeb6c3b172f1e253da8c4eee22/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.7.0] /Users/siddharthsingh/.gradle/caches/transforms-3/ea18ebfeb6c3b172f1e253da8c4eee22/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/61680781cf0b5e33c1b32bbbd1f9f3dd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -278,12 +304,6 @@ INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:5-79
