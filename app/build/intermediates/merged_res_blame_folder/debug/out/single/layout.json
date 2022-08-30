@@ -8,6 +8,10 @@
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/activity_sign_up.xml"
     },
     {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sample_chatview.xml",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/sample_chatview.xml"
+    },
+    {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chat.xml",
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/fragment_chat.xml"
     },

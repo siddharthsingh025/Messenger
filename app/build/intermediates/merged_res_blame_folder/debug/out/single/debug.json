@@ -188,6 +188,10 @@
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/layout_sample_chatview.xml.flat",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/sample_chatview.xml"
+    },
+    {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/drawable_menu.png.flat",
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/drawable/menu.png"
     },

@@ -256,6 +256,10 @@ int attr circularflow_defaultAngle 0x7f0300be
 int attr circularflow_defaultRadius 0x7f0300bf
 int attr circularflow_radiusInDP 0x7f0300c0
 int attr circularflow_viewCenter 0x7f0300c1
+int attr civ_border_color 0x7f030459
+int attr civ_border_overlay 0x7f03045a
+int attr civ_border_width 0x7f03045b
+int attr civ_circle_background_color 0x7f03045c
 int attr clearsTag 0x7f0300c2
 int attr clickAction 0x7f0300c3
 int attr clockFaceBackgroundColor 0x7f0300c4
@@ -2721,6 +2725,7 @@ int id center_vertical 0x7f080076
 int id chain 0x7f080077
 int id chain2 0x7f080078
 int id chains 0x7f080079
+int id chatRecyclerview 0x7f08020c
 int id checkbox 0x7f08007a
 int id checked 0x7f08007b
 int id chip 0x7f08007c
@@ -2854,6 +2859,7 @@ int id item_touch_helper_previous_elevation 0x7f0800fa
 int id jumpToEnd 0x7f0800fb
 int id jumpToStart 0x7f0800fc
 int id labeled 0x7f0800fd
+int id lastTxtTime 0x7f08020d
 int id layout 0x7f0800fe
 int id left 0x7f0800ff
 int id leftToRight 0x7f080100
@@ -2962,6 +2968,7 @@ int id percent 0x7f080165
 int id pin 0x7f080166
 int id position 0x7f080167
 int id postLayout 0x7f080168
+int id profile_pic 0x7f08020e
 int id progressBar 0x7f080169
 int id progress_circular 0x7f08016a
 int id progress_horizontal 0x7f08016b
@@ -3093,9 +3100,11 @@ int id triangle 0x7f0801e6
 int id txtAlreadyHaveAccount 0x7f0801e7
 int id txtClickSignUp 0x7f0801e8
 int id txtEmail 0x7f0801e9
+int id txtLastMessage 0x7f08020f
 int id txtLogInUpPhone 0x7f0801ea
 int id txtPassword 0x7f0801eb
 int id txtSignUpPhone 0x7f0801ec
+int id txtUserNameList 0x7f080210
 int id txtUsername 0x7f0801ed
 int id unchecked 0x7f0801ee
 int id uniform 0x7f0801ef
@@ -3301,6 +3310,7 @@ int layout notification_template_media 0x7f0b0085
 int layout notification_template_media_custom 0x7f0b0086
 int layout notification_template_part_chronometer 0x7f0b0065
 int layout notification_template_part_time 0x7f0b0066
+int layout sample_chatview 0x7f0b0087
 int layout select_dialog_item_material 0x7f0b0067
 int layout select_dialog_multichoice_material 0x7f0b0068
 int layout select_dialog_singlechoice_material 0x7f0b0069
@@ -4946,6 +4956,11 @@ int styleable ChipGroup_chipSpacingVertical 3
 int styleable ChipGroup_selectionRequired 4
 int styleable ChipGroup_singleLine 5
 int styleable ChipGroup_singleSelection 6
+int[] styleable CircleImageView { 0x7f030459, 0x7f03045a, 0x7f03045b, 0x7f03045c }
+int styleable CircleImageView_civ_border_color 0
+int styleable CircleImageView_civ_border_overlay 1
+int styleable CircleImageView_civ_border_width 2
+int styleable CircleImageView_civ_circle_background_color 3
 int[] styleable CircularProgressIndicator { 0x7f0301f9, 0x7f0301fb, 0x7f0301fc }
 int styleable CircularProgressIndicator_indicatorDirectionCircular 0
 int styleable CircularProgressIndicator_indicatorInset 1

@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
+import com.siddharth.massengerapp.Adapters.FragmentsAdapter;
 import com.siddharth.massengerapp.R;
 import com.siddharth.massengerapp.databinding.ActivityLogInBinding;
 import com.siddharth.massengerapp.databinding.ActivityMainBinding;
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         auth = FirebaseAuth.getInstance();
+
+        binding.viewPager.setAdapter(new FragmentsAdapter(getSupportFragmentManager()));
+        binding.tabLayout.setupWithViewPager(binding.viewPager);
 
 
     }

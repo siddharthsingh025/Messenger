@@ -12,6 +12,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gr
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5cf298a6e3aa8a5b2ac21b449d8822a5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b43002ce6c02b0768b821ce4768cea17/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/756a3ddf4473fb58149b05a1bb0eb6b4/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/siddharthsingh/.gradle/caches/transforms-3/15fcacc117681a3265dd332c3dfeceb3/transformed/firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
@@ -65,6 +67,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/siddharthsingh/.gr
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/317f20868c716b018c5eff8c1ea5fe3c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/62db4ae9e3e356fe261461a62aa1449f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b8cc1992ac5061931f3798174aa7f68a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b2a1d5ebe40c982b027ff3c1d65230f8/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
@@ -102,6 +105,10 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b43002ce6c02b0768b821ce4768cea17/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b43002ce6c02b0768b821ce4768cea17/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/756a3ddf4473fb58149b05a1bb0eb6b4/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
@@ -188,6 +195,10 @@ MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharths
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5cf298a6e3aa8a5b2ac21b449d8822a5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/5cf298a6e3aa8a5b2ac21b449d8822a5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b43002ce6c02b0768b821ce4768cea17/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b43002ce6c02b0768b821ce4768cea17/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/1f447deff5f428d40566463a8f330e6f/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/756a3ddf4473fb58149b05a1bb0eb6b4/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
@@ -294,6 +305,8 @@ MERGED from [androidx.print:print:1.0.0] /Users/siddharthsingh/.gradle/caches/tr
 MERGED from [androidx.print:print:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/62db4ae9e3e356fe261461a62aa1449f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b8cc1992ac5061931f3798174aa7f68a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b8cc1992ac5061931f3798174aa7f68a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b2a1d5ebe40c982b027ff3c1d65230f8/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b2a1d5ebe40c982b027ff3c1d65230f8/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -404,6 +417,14 @@ ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsi
 		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /Users/siddharthsingh/.gradle/caches/transforms-3/c6cd350cb096e0b3b964ff8aed7df3a5/transformed/play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/siddharthsingh/.gradle/caches/transforms-3/1c05b054026d5af37f7c3291a5f2f24d/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/siddharthsingh/.gradle/caches/transforms-3/15fcacc117681a3265dd332c3dfeceb3/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
 	android:authorities

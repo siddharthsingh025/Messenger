@@ -49,10 +49,13 @@ id btnFacebook
 id btnGoogle
 id btnLogIn
 id btnSignUp
+id chatRecyclerview
 id groupChat
 id imageView
+id lastTxtTime
 id loading_msg
 id logout
+id profile_pic
 id progressBar
 id rlLoading
 id settings
@@ -60,9 +63,11 @@ id tabLayout
 id txtAlreadyHaveAccount
 id txtClickSignUp
 id txtEmail
+id txtLastMessage
 id txtLogInUpPhone
 id txtPassword
 id txtSignUpPhone
+id txtUserNameList
 id txtUsername
 id viewPager
 layout activity_log_in
@@ -71,6 +76,7 @@ layout activity_sign_up
 layout fragment_calls
 layout fragment_chat
 layout fragment_status
+layout sample_chatview
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
