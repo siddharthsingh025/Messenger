@@ -60,7 +60,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             image = itemView.findViewById(R.id.profile_pic);
-            userName = itemView.findViewById(R.id.txtUsername);
+            userName = itemView.findViewById(R.id.txtUserNameList);
             lastMessage = itemView.findViewById(R.id.txtLastMessage);
             lastTxtTime = itemView.findViewById(R.id.lastTxtTime);
         }
