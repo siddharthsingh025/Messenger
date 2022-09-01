@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/siddharthsingh/.gradle/caches/transforms-3/4af425911d590c861069a4be01949aa7/transformed/viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] /Users/siddharthsingh/.gradle/caches/transforms-3/455c4e9a9b8479d027ebdd6e84f49a5e/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/siddharthsingh/.gradle/caches/transforms-3/758dc692c2ac2287cd8763300629116b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -68,25 +68,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/siddharthsingh/.gr
 MERGED from [androidx.print:print:1.0.0] /Users/siddharthsingh/.gradle/caches/transforms-3/62db4ae9e3e356fe261461a62aa1449f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b8cc1992ac5061931f3798174aa7f68a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/siddharthsingh/.gradle/caches/transforms-3/b2a1d5ebe40c982b027ff3c1d65230f8/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/siddharthsingh/.gradle/caches/transforms-3/8a6c408f0a49ca53d51a5f8ca3111c90/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh/.gradle/caches/transforms-3/41611160552d14d994ceda2585af7bd4/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
@@ -94,7 +94,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/siddharthsingh
 	android:name
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:7:5-30:19
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:7:5-32:19
 MERGED from [com.google.android.material:material:1.6.1] /Users/siddharthsingh/.gradle/caches/transforms-3/455c4e9a9b8479d027ebdd6e84f49a5e/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] /Users/siddharthsingh/.gradle/caches/transforms-3/455c4e9a9b8479d027ebdd6e84f49a5e/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/siddharthsingh/.gradle/caches/transforms-3/758dc692c2ac2287cd8763300629116b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -147,34 +147,40 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/siddharthsingh/.grad
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:13:9-50
-activity#com.siddharth.massengerapp.Activities.SinghUpActivity
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:14:9-17:20
+activity#com.siddharth.massengerapp.Activities.ChatBoxActivity
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:15:13-55
+activity#com.siddharth.massengerapp.Activities.SinghUpActivity
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:17:9-19:49
+	android:exported
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:18:13-55
 activity#com.siddharth.massengerapp.Activities.LogInActivity
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:exported
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:19:13-53
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:21:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.siddharth.massengerapp.Activities.MainActivity
-ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:27:9-29:39
+ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:29:13-37
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:28:13-52
+		ADDED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml:30:13-52
 uses-sdk
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/AndroidManifest.xml

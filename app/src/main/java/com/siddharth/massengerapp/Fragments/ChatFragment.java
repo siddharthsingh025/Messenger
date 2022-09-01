@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -65,7 +66,11 @@ public class ChatFragment extends Fragment {
                         Users users = dataSnapshot.getValue(Users.class);
                         users.setUserId(dataSnapshot.getKey());
 //                        Toast.makeText(getContext(),users.getPassword(),Toast.LENGTH_SHORT).show();
-                        list.add(users);
+                        if(!users.getUserId().equals(FirebaseAuth.getInstance().getUid()))
+                        {
+                            list.add(users);
+                        }
+
                     }
                     adapter.notifyDataSetChanged();
 

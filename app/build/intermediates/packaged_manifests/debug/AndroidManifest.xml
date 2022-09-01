@@ -22,9 +22,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.MassengerApp" >
         <activity
+            android:name="com.siddharth.massengerapp.Activities.ChatBoxActivity"
+            android:exported="false" />
+        <activity
             android:name="com.siddharth.massengerapp.Activities.SinghUpActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.siddharth.massengerapp.Activities.LogInActivity"
             android:exported="true" >

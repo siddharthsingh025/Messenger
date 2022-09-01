@@ -84,6 +84,10 @@
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/layout_activity_chat_box.xml.flat",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/activity_chat_box.xml"
+    },
+    {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/layout_activity_sign_up.xml.flat",
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/layout/activity_sign_up.xml"
     },
@@ -274,5 +278,9 @@
     {
         "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/drawable_leftarrowwhite.png.flat",
         "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/drawable/leftarrowwhite.png"
+    },
+    {
+        "merged": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/build/intermediates/merged_res/debug/drawable_bg_et_msg.xml.flat",
+        "source": "/Users/siddharthsingh/Documents/Andriod_projects/MassengerApp/app/src/main/res/drawable/bg_et_msg.xml"
     }
 ]

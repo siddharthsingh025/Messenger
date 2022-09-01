@@ -2493,6 +2493,7 @@ drawable avatar1
 drawable avatar3
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_et_msg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2692,6 +2693,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backArrow
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2726,6 +2728,8 @@ id center_vertical
 id chain
 id chain2
 id chains
+id charBoxRecyclerView
+id chatBoxToolbar
 id chatRecyclerview
 id checkbox
 id checked
@@ -2802,6 +2806,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id enterMsg
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2846,6 +2851,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView4
+id imageView5
+id imageView6
 id immediateStop
 id included
 id info
@@ -2969,6 +2977,7 @@ id percent
 id pin
 id position
 id postLayout
+id profile_image
 id profile_pic
 id progressBar
 id progress_circular
@@ -3007,6 +3016,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send
 id settings
 id sharedValueSet
 id sharedValueUnset
@@ -3112,6 +3122,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userName
 id vertical_only
 id viewPager
 id view_offset_helper
@@ -3224,6 +3235,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat_box
 layout activity_log_in
 layout activity_main
 layout activity_sign_up
