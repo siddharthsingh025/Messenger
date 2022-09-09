@@ -63,6 +63,29 @@
 
 ![Screenshot_20220906_175034](https://user-images.githubusercontent.com/87073574/188634304-12e6a098-0538-499a-85bd-d984587566a9.png)
 
+![Screenshot_20220910_013623](https://user-images.githubusercontent.com/87073574/189434772-9d3e405b-3500-46b0-a2ee-7f0d8149427d.png)
+
+
+![Screenshot_20220910_013644](https://user-images.githubusercontent.com/87073574/189434794-53731926-792d-437f-88aa-b22b9fe71b80.png)
+
+
+
+
+
+
+
+
+
+### Firebase Snapshots
+
+<img width="1346" alt="Screenshot 2022-09-10 at 1 39 19 AM" src="https://user-images.githubusercontent.com/87073574/189435145-7470d142-62f6-4e02-8fba-1ae9db791ce5.png">
+
+
+<img width="1045" alt="Screenshot 2022-09-10 at 1 39 44 AM" src="https://user-images.githubusercontent.com/87073574/189435201-e1ae4255-281a-4c51-aee6-1cc5d5132cee.png">
+
+
+
+
 
    
         
